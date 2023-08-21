@@ -1,0 +1,46 @@
+html, body{
+    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fdfcfc;
+    line-height: 1.5;
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+    }
+
+/*/ komputer /*/
+
+header{
+    background-color: #858585;
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+    font-size: 2em;
+    margin-bottom: 3vh;
+    padding-bottom: 1vmin;
+    border: 0;
+}
+.judul{
+    margin: auto;
+    font-size: 5em;
+    font-style: italic;
+}
+footer{
+    display: flex;
+width: 100vw;
+height: 15vw;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #031520;
+text-align: center;
+font-size: 6vw;
+font-style: small;
+font-weight: 400;
+line-height: normal;
+border: 1vmin solid var(--accent, #6d6d6d)  ;
+background: var(--secondary, #dddddd);
+margin-top: 8vw;
+}
+
+
