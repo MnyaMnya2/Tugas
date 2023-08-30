@@ -1,11 +1,75 @@
 html, body{
     font-family: 'Macondo Swash Caps', cursive;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #fdfcfc;
-    line-height: 1.5;
-    margin: 0;
-    border: 0;
-    overflow-x: hidden;
-    }
+    background-color:rgb(205, 241, 255);
+    margin: auto;
+}
 
 /*/ komputer /*/
+#card{
+    margin: 2em auto;
+    width: 25em;
+    height: 100%;
+    border: solid #879e82;
+    background-color: rgb(30, 33, 49);
+    border-radius: 10%;
+    padding-bottom: 3vw;
+    padding-top: 2vw;
+}
+h1{
+    color: #efefef;
+    text-align:center ;
+    margin: 0 !important;
+    border: 0;
+    font-size: 4em;
+    font-size: medium;
+    padding-bottom: 1vmin;
+    overflow: hidden; /* memastikan konten tidak tampil sebelum animasi dimulai */
+    border-right: .15em solid orange; /* cursor pada typewriter */
+    white-space: nowrap; /* tetap menjaga konten berada pada satu garis */
+    margin: 0 auto; /* membuat efek scrolling pada saat animasi berjalan */
+    letter-spacing: .15em; /* tambhakan bila di perlukan */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+ 
+/* efek pengetikan */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+ 
+/* efek pada cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+h2{
+    color: #efefef;
+    text-align:center ;
+    margin: 0 !important;
+    border: 0;
+    font-size: 3em;
+    font-size: small;
+    padding-bottom: 2vw;
+}
+img{
+    height: 100%;
+    width: 10em;
+    padding: 20px; 
+    position: relative; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.isi{
+    color: #efefef;text-align: center;
+}
+ul{
+    color: #efefef;
+    text-align:left ;
+    font-size: 1em;
+    padding-bottom: 1vw;
+}
